@@ -55,6 +55,6 @@ function applyCoupon(category){
 [4,1,5,7,2,3,1,4,6,5,2].removeDuplicatess();
 [4,1,5,7,2,3,1,4,6,5,2].removeDuplicatesPromise();
 [4,1,5,7,2,3,1,4,6,5,2].removeDuplicatesAsync();
-//[4,1,5,7,2,3,1,4,6,5,2].removeDuplicatesObservable();
+[4,1,5,7,2,3,1,4,6,5,2].removeDuplicatesObservable();
 isWeekend();
 console.log(applyCoupon("food")(0.1)(item).price);
