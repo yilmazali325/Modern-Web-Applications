@@ -49,7 +49,7 @@ const item ={
 function applyCoupon(category){
    return(discount) => {
        return(item) => {
-           return item.price -= item.price * discount;
+           return item.price -= item.price;
        };
    };
 }
