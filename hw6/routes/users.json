@@ -1,14 +1,1 @@
-{
-    "student1" : {
-        "id" : 1,
-        "name" : "Asaad Saad",
-        "course" : "CS572",
-        "grade" : 95
-    },
-    "student2" : {
-        "id" : 2,
-        "name" : "Saad",
-        "course" : "CS572",
-        "grade" : 100
-    }
-}
+{"student1":{"id":1,"name":"Asaad Saad","course":"CS572","grade":95},"student2":{"id":2,"name":"Saad","course":"CS572","grade":100},"student3":{"id":3,"name":"Ali Yilmaz","course":"CS572","grade":100}}

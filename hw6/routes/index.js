@@ -29,9 +29,11 @@ router.post('/addStudent',function(req,res){
   fs.readFile(__dirname + "/" + "users.json", 'utf8', function(err,data){
     data = JSON.parse(data);
     data["student3"] = student["student3"];
+    fs.writeFileSync(__dirname + "/" + "users.json",JSON.stringify(data));
     console.log(data);
     res.end(JSON.stringify(data));
   });
+
 });
 router.get('/:id', function (req, res) {
   // First read existing users.
