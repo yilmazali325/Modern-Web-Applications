@@ -37,13 +37,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-app.delete('/deleteStudent',function(req,res){
-  fs.readFile(__dirname + "/" + "users.json",'utf8',function(err,data){
-    data = JSON.parse(data);
-    delete data["student2"];
-    console.log(data);
-    res.end(JSON.stringify(data));
-  })
-});
+
 app.listen(3000,()=>console.log('Server is started at the port 3000'));
 module.exports = app;
