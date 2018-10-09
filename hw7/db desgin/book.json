@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5bbd2e063acfedaeef3dff26"},"ISBN":" "}
+{"_id":{"$oid":"5bbd2ed43acfedaeef3dff27"},"author":" "}
+{"_id":{"$oid":"5bbd2ee43acfedaeef3dff28"},"keywords":" "}
+{"_id":{"$oid":"5bbd30c13acfedaeef3dff2c"},"isBorrowed":" "}
+{"_id":{"$oid":"5bbd30d53acfedaeef3dff2d"},"returnDate":" "}
